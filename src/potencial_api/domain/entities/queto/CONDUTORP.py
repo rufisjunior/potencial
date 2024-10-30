@@ -1,0 +1,25 @@
+class CONDUTORP:
+    def __init__(self):
+        self.RELASEG = ""
+        self.CPFCOND = ""
+        self.NOMECOND = ""
+        self.SEXOCOND = ""
+        self.NASCCOND = ""
+        self.ESTCIVILCOND = ""
+        self.TEMPOHABILITA = ""
+        self.PROFIS = None
+        self.RESIDEEM = ""
+        self.CONDCONSID = ""
+        self.TOTALVEICS = ""
+        self.VITIMA = ""
+        self.CONDSACIMA25 = ""
+        self.COBER18A25 = ""
+        self.RESIDENTE26 = ""
+        self.NAORESIDENTE26 = ""
+        self.CONDUTORES25 = ""
+        self.AREACIRCULA = None
+        self.PMFILHOS = ""
+        self.PMCLUBE = ""
+        self.GARAGTRAB = ""
+        self.PMDIAS = ""
+        self.UTLIZASEMANA = ""

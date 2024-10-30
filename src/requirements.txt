@@ -1,0 +1,10 @@
+flake8
+autodiscover
+flask
+flask_cors
+flask_log_request_id
+flask_classful
+dicttoxml
+xmltodict
+xmljson
+gevent

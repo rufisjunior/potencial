@@ -1,0 +1,15 @@
+import os
+
+CORE_URL_API = os.environ.get('CORE_URL_API', 'https://services.teleport.com.br')
+CORE_PATH_V1 = os.environ.get('CORE_PATH_V1', '/gateway/route/gateway/vehicle/v1/search')
+CORE_PATH_PERSON = os.environ.get('CORE_PATH_PERSON', '/gateway/route/gateway/person/v1/search')
+CORE_PATH_AUTO_COMPLETE = os.environ.get('CORE_PATH_AUTO_COMPLETE', '/gateway/route/gateway/auto_complete/vehicle')
+API_KEY = os.environ.get('API_KEY', '6a2a5bc3-6658-4c32-902f-95181d34c5d3')
+CORE_URL_TELEPORT = os.environ.get('CORE_URL_TELEPORT', 'https://api-multicalculo.teleport.com.br')
+PASSWORD_TELEPORT = os.environ.get('PASSWORD_TELEPORT', f'G580r$fW$$$@@fhOt%5029#fZZZs%8jQp.nX*tf86.T%gAgp')
+TIMEOUT = os.environ.get('TIMEOUT', 100)
+PATH_TELEPORT = os.environ.get('PATH_TELEPORT', '/soap/Teleport')
+CODE_CORRECTOR = os.environ.get('CODE_CORRECTOR', f'16975')
+PASSWORD_CORRECTOR = os.environ.get('PASSWORD_CORRECTOR', f'P169@pot')
+API_KEY_RD_STATION = os.environ.get('API_KEY_RD_STATION', f'CqEFcbRPlWnWqMLGeFnZgUQCouhiBaQQHKDH')
+CORE_URL_API_RD_STATION = os.environ.get('CORE_URL_API_RD_STATION', 'https://api.rd.services')
